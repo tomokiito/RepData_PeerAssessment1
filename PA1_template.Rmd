@@ -1,9 +1,7 @@
-
-```{r }
+---
 title: "Peer-graded Assignment: Course Project 1"
 output: html_document
-keep_md: true
-```{r }
+---
 
 ## R Markdown
 
@@ -204,5 +202,3 @@ g +
  labs(x="5-minute interval",y="average number of steps",
       title="the average daily activity pattern")
 ```
-```
-
