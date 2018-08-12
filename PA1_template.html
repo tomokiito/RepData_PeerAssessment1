@@ -383,7 +383,7 @@ df</code></pre>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level3">
 <h3>Are there differences in activity patterns between weekdays and weekends?</h3>
-<p>NA</p>
+<p>1.Create a new factor variable in the dataset with two levels – “weekday” and “weekend”</p>
 <pre class="r"><code>dat4 &lt;- interpolate_dat %&gt;%
   mutate(weekday = weekdays(lubridate::ymd(date),abbreviate=TRUE)) %&gt;%
   mutate(weekend = factor(weekday,
